@@ -42,8 +42,7 @@ def sort(arr):
 array = get_array()
 size = len(array)
 
-print array
+print '정렬 전 : ' + array.__str__()
 make_heap(array, size)
-print array
 sort(array)
-print array
+print '정렬 후 : ' + array.__str__()
