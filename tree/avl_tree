@@ -1,0 +1,10 @@
+#AVL Tree
+
+avl 트리는 이진탐색트리의 불균형을 해소할 수 있는 트리이다.
+avl 트리에서는 BF라는 단위를 사용하여 불균형을 해소한다.
+* BF = 왼쪽노드 높이 - 오른쪽노드의 높이
+BF의 값이 -1,0,1로만 이진트리가 구성되어 있을 때, avl tree 라고 할 수 있다.
+이진탐색트리를 구성하다보면 불균형트리가 되며 avl tree로 구성하기 위해 트리회전을 이용한다.
+
+(그림참고)
+https://m.blog.naver.com/PostView.nhn?blogId=dhdh6190&logNo=221062784111&proxyReferer=https%3A%2F%2Fwww.google.com%2F
